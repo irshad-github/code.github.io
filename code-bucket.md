@@ -976,3 +976,7 @@ text-overflow: ellipsis;
 </style>
 <p class="truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, recusandae.</p>
 ```
+### A numeric keyboard in input[type='text']
+```html
+<input type="text" inputmode="numeric" pattern="[0-9]*">
+```
